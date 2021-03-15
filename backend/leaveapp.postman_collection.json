@@ -1,0 +1,926 @@
+{
+	"info": {
+		"_postman_id": "7ea31dca-3777-4b74-a43a-f54d01609b87",
+		"name": "leaveapp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"Samy@example.com\",\r\n    \"password\":\"1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						""
+					]
+				},
+				"description": "login request "
+			},
+			"response": [
+				{
+					"name": "http://localhost:5000/",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"Samy@example.com\",\r\n    \"password\":\"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "54"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type,Authorization,true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PATCH,POST,DELETE,OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/0.15.4 Python/3.7.9"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Mar 2021 00:22:54 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"success login\",\n    \"success\": true,\n    \"userid\": 1\n}"
+				},
+				{
+					"name": "http://localhost:5000/",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"Samy@example.com\",\r\n    \"password\":\"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "54"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type,Authorization,true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PATCH,POST,DELETE,OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/0.15.4 Python/3.7.9"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Mar 2021 00:21:01 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"success login\",\n    \"success\": true,\n    \"userid\": 1\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:5000/3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"3"
+					]
+				},
+				"description": "user information request"
+			},
+			"response": [
+				{
+					"name": "http://localhost:5000/3",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "390"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type,Authorization,true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PATCH,POST,DELETE,OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/0.15.4 Python/3.7.9"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Mar 2021 00:24:33 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"userinfo\": [\n        {\n            \"bloodgroup\": \"A+\",\n            \"category\": \"employee\",\n            \"dateofbirth\": \"1996-06-01\",\n            \"email\": \"Linda@example.com\",\n            \"gender\": \"Female\",\n            \"id\": 3,\n            \"image\": \"/images/personimg3.jpg\",\n            \"joptitle\": \"IOS Dovoloper\",\n            \"lastname\": \"Samy\",\n            \"linkedin\": \"#lindasamy\",\n            \"nationality\": \"egyption\",\n            \"phonenumber\": \"01000000010\",\n            \"preferredname\": \"Linda\",\n            \"secondarynumber\": \"0111111111\",\n            \"website\": \"www.example.com\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:5000/payment/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/payment/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"payment",
+						"2"
+					]
+				},
+				"description": "Payment method information request"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/employees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"employees"
+					]
+				},
+				"description": "Get all Employees information request"
+			},
+			"response": [
+				{
+					"name": "http://localhost:5000/employees",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"employees"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1821"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type,Authorization,true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PATCH,POST,DELETE,OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/0.15.4 Python/3.7.9"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Mar 2021 00:32:08 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"userinfo\": [\n        {\n            \"bloodgroup\": \"A+\",\n            \"category\": \"employee\",\n            \"dateofbirth\": \"1996-02-01\",\n            \"email\": \"Samy@example.com\",\n            \"gender\": \"Male\",\n            \"id\": 1,\n            \"image\": \"/images/personimg2.jpg\",\n            \"joptitle\": \"Dovoloper\",\n            \"lastname\": \"Michel\",\n            \"linkedin\": \"#samymichel\",\n            \"nationality\": \"egyption\",\n            \"phonenumber\": \"01000000010\",\n            \"preferredname\": \"Samy\",\n            \"secondarynumber\": \"0111111111\",\n            \"website\": \"www.example.com\"\n        },\n        {\n            \"bloodgroup\": \"A+\",\n            \"category\": \"employee\",\n            \"dateofbirth\": \"1996-06-01\",\n            \"email\": \"Maria@example.com\",\n            \"gender\": \"Female\",\n            \"id\": 2,\n            \"image\": \"/images/personimg1.jpg\",\n            \"joptitle\": \"PHP Dovoloper\",\n            \"lastname\": \"Samy\",\n            \"linkedin\": \"#mariasamy\",\n            \"nationality\": \"egyption\",\n            \"phonenumber\": \"01000000010\",\n            \"preferredname\": \"Maria\",\n            \"secondarynumber\": \"0111111111\",\n            \"website\": \"www.example.com\"\n        },\n        {\n            \"bloodgroup\": \"A+\",\n            \"category\": \"employee\",\n            \"dateofbirth\": \"1996-06-01\",\n            \"email\": \"Linda@example.com\",\n            \"gender\": \"Female\",\n            \"id\": 3,\n            \"image\": \"/images/personimg3.jpg\",\n            \"joptitle\": \"IOS Dovoloper\",\n            \"lastname\": \"Samy\",\n            \"linkedin\": \"#lindasamy\",\n            \"nationality\": \"egyption\",\n            \"phonenumber\": \"01000000010\",\n            \"preferredname\": \"Linda\",\n            \"secondarynumber\": \"0111111111\",\n            \"website\": \"www.example.com\"\n        },\n        {\n            \"bloodgroup\": \"A+\",\n            \"category\": \"employee\",\n            \"dateofbirth\": \"1996-06-01\",\n            \"email\": \"Johan@example.com\",\n            \"gender\": \"Male\",\n            \"id\": 5,\n            \"image\": \"/images/personimg5.jpg\",\n            \"joptitle\": \"Tester\",\n            \"lastname\": \"Samy\",\n            \"linkedin\": \"#Johansamy\",\n            \"nationality\": \"egyption\",\n            \"phonenumber\": \"01000000010\",\n            \"preferredname\": \"Johan\",\n            \"secondarynumber\": \"0111111111\",\n            \"website\": \"www.example.com\"\n        },\n        {\n            \"bloodgroup\": \"A+\",\n            \"category\": \"employee\",\n            \"dateofbirth\": \"1996-06-01\",\n            \"email\": \"Sara@example.com\",\n            \"gender\": \"Female\",\n            \"id\": 6,\n            \"image\": \"/images/personimg6.jpg\",\n            \"joptitle\": \"Tester\",\n            \"lastname\": \"Samy\",\n            \"linkedin\": \"#sarasamy\",\n            \"nationality\": \"egyption\",\n            \"phonenumber\": \"01000000010\",\n            \"preferredname\": \"Sara\",\n            \"secondarynumber\": \"0111111111\",\n            \"website\": \"www.example.com\"\n        }\n    ],\n    \"usernumber\": 5\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:5000/pendleavestatus",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/checkmanager/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"checkmanager",
+						"2"
+					]
+				},
+				"description": "pending leave status request "
+			},
+			"response": [
+				{
+					"name": "http://localhost:5000/pendleavestatus",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/pendleavestatus",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"pendleavestatus"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "179"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type,Authorization,true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PATCH,POST,DELETE,OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/0.15.4 Python/3.7.9"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Mar 2021 00:35:32 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"pendnumber\": 1,\n    \"pendstatus\": [\n        {\n            \"from\": \"2021-04-01\",\n            \"id\": 2,\n            \"leavetype\": \"Parental Leave\",\n            \"note\": \"Parenting Leave\",\n            \"status\": \"Pending\",\n            \"to\": \"2021-04-19\",\n            \"user_id\": 6\n        }\n    ],\n    \"success\": true\n}"
+				},
+				{
+					"name": "http://localhost:5000/pendleavestatus",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/pendleavestatus",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"pendleavestatus"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "411"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type,Authorization,true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PATCH,POST,DELETE,OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/0.15.4 Python/3.7.9"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Mar 2021 02:07:32 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"pendnumber\": 3,\n    \"pendstatus\": [\n        {\n            \"from\": \"2021-04-02\",\n            \"id\": 11,\n            \"leavetype\": \"Working From Home\",\n            \"note\": \"Annual\",\n            \"status\": \"Pending\",\n            \"to\": \"2021-05-01\",\n            \"user_id\": 1\n        },\n        {\n            \"from\": \"2021-03-15\",\n            \"id\": 12,\n            \"leavetype\": \"Patient\",\n            \"note\": \"Patient\",\n            \"status\": \"Pending\",\n            \"to\": \"2021-03-16\",\n            \"user_id\": 2\n        },\n        [\n            {\n                \"image\": \"/images/personimg2.jpg\",\n                \"preferredname\": \"Samy\"\n            },\n            {\n                \"image\": \"/images/personimg1.jpg\",\n                \"preferredname\": \"Maria\"\n            }\n        ]\n    ],\n    \"success\": true\n}"
+				},
+				{
+					"name": "http://localhost:5000/pendleavestatus",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/checkmanager/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"checkmanager",
+								"2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "34"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type,Authorization,true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PATCH,POST,DELETE,OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/0.15.4 Python/3.7.9"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Mar 2021 05:51:09 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"ismanger\": false,\n    \"success\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:5000/approveleavestatus",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/approveleavestatus",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"approveleavestatus"
+					]
+				},
+				"description": "get all approved leaves status request"
+			},
+			"response": [
+				{
+					"name": "http://localhost:5000/approveleavestatus",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/approveleavestatus",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"approveleavestatus"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "186"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type,Authorization,true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PATCH,POST,DELETE,OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/0.15.4 Python/3.7.9"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Mar 2021 00:37:24 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"approvenumber\": 1,\n    \"approvestatus\": [\n        {\n            \"from\": \"2021-03-17\",\n            \"id\": 1,\n            \"leavetype\": \"Parental Leave\",\n            \"note\": \"Parenting Leave\",\n            \"status\": \"Approved\",\n            \"to\": \"2021-03-19\",\n            \"user_id\": 2\n        }\n    ],\n    \"success\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:5000/pendleavestatus/3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"leavetype\":\"Patient\",\r\n    \"_from\":\"2021-03-15\",\r\n    \"_to\":\"2021-03-16\",\r\n    \"note\":\"Patient\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/pendleavestatus/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"pendleavestatus",
+						"3"
+					]
+				},
+				"description": "insert leave status request"
+			},
+			"response": [
+				{
+					"name": "http://localhost:5000/pendleavestatus/3",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"leavetype\":\"Patient\",\r\n    \"_from\":\"2021-03-15\",\r\n    \"_to\":\"2021-03-16\",\r\n    \"note\":\"Patient\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/pendleavestatus/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"pendleavestatus",
+								"3"
+							]
+						}
+					},
+					"status": "CREATED",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "57"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type,Authorization,true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PATCH,POST,DELETE,OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/0.15.4 Python/3.7.9"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Mar 2021 00:43:21 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"inserted\": 3,\n    \"message\": \"leaved created\",\n    \"success\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:5000/pendleavestatus/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/pendleavestatus/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"pendleavestatus",
+						"3"
+					]
+				},
+				"description": "Delete leave status request"
+			},
+			"response": [
+				{
+					"name": "http://localhost:5000/pendleavestatus/3",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/pendleavestatus/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"pendleavestatus",
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "68"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type,Authorization,true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PATCH,POST,DELETE,OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/0.15.4 Python/3.7.9"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Mar 2021 00:44:47 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"leave_item_id\": 3,\n    \"message\": \"leave status deleted\",\n    \"success\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:5000/approveleavestatus/3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"status\":\"Approved\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/approveleavestatus/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"approveleavestatus",
+						"3"
+					]
+				},
+				"description": "approved leave status request"
+			},
+			"response": [
+				{
+					"name": "http://localhost:5000/approveleavestatus/3",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"status\":\"Approved\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/approveleavestatus/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"approveleavestatus",
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "62"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type,Authorization,true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PATCH,POST,DELETE,OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/0.15.4 Python/3.7.9"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Mar 2021 01:01:30 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"leaved created\",\n    \"success\": true,\n    \"update status\": 3\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:5000/managers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/managers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"managers"
+					]
+				},
+				"description": "get all managers request"
+			},
+			"response": [
+				{
+					"name": "http://localhost:5000/managers",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/managers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"managers"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "413"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type,Authorization,true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PATCH,POST,DELETE,OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/0.15.4 Python/3.7.9"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Mar 2021 01:08:37 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"managernumber\": 1,\n    \"managerstatus\": [\n        {\n            \"bloodgroup\": \"A+\",\n            \"category\": \"Manager\",\n            \"dateofbirth\": \"1996-06-01\",\n            \"email\": \"Jory@example.com\",\n            \"gender\": \"Female\",\n            \"id\": 4,\n            \"image\": \"/images/personimg4.jpg\",\n            \"joptitle\": \"Software engineer\",\n            \"lastname\": \"Samy\",\n            \"linkedin\": \"#jorysamy\",\n            \"nationality\": \"egyption\",\n            \"phonenumber\": \"01000000010\",\n            \"preferredname\": \"Jory\",\n            \"secondarynumber\": \"0111111111\",\n            \"website\": \"www.example.com\"\n        }\n    ],\n    \"success\": true\n}"
+				}
+			]
+		}
+	]
+}
